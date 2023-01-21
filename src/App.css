@@ -97,7 +97,7 @@ small{
   margin: 0 auto;
   display: block;
 }  
-@media (min-width:700px){
+@media (min-width:800px){
   .card-list {
     grid-template-columns: auto auto;
   }
