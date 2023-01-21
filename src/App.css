@@ -32,7 +32,10 @@ small{
 /* SEARCH */
 
 .form {
+  margin: 0 auto;
   display: grid;
+  
+  width: 100%;
 }
 .label {
   font-size: 1.2rem;
@@ -40,6 +43,7 @@ small{
   text-transform: uppercase;
 }
 .input {
+  width: 100%;
   font-size: 1.6rem;
   padding: 0.5rem 2rem;
   line-height: 2.8rem;
@@ -76,16 +80,19 @@ small{
 
 .card-list {
   width: 100%;
-  display: grid;
-  grid-template-columns:  auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   grid-gap: 3rem;
   margin-top: 4rem;
 }
 .card {
-  padding: 2rem 4rem;
+  margin-bottom: 10px;
+  max-width: 300px;
+  padding: 1rem 4rem;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
-  margin-bottom: 2rem;
+  margin: 0 auto;
   background-color: #fff;
 }
 .card--title {
@@ -97,9 +104,21 @@ small{
   margin: 0 auto;
   display: block;
 }  
-@media (min-width:800px){
+@media (min-width:690px){
   .card-list {
-    grid-template-columns: auto auto;
+   display: grid;
+   grid-template-columns: auto auto;
+
+
+  }
+  .card {
+    min-width: 300px;
+    margin: 0 auto;
+  }
+}
+@media (min-width:1200px){
+  .card-list {
+    grid-template-columns: auto auto auto;
   }
 }
 
