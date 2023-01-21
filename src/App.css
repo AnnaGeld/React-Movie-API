@@ -77,10 +77,8 @@ small{
 .card-list {
   width: 100%;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns:  auto;
   grid-gap: 3rem;
-  
-
   margin-top: 4rem;
 }
 .card {
@@ -99,5 +97,10 @@ small{
   margin: 0 auto;
   display: block;
 }  
+@media (min-width:700px){
+  .card-list {
+    grid-template-columns: auto auto;
+  }
+}
 
 /* END OF FIRS VERSION */
