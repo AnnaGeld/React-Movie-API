@@ -1,5 +1,8 @@
-API_URL = "https://api.themoviedb.org/3/movie/550?api_key=414c1de4377ef5beeaf6320a98942e56"
+# React app that lets you Search Your favourite Movies
 
-API_IMG = "https://image.tmdb.org/t/p/w500/
-"
-API_SEARCH = "https://api.themoviedb.org/3/search/movie?api_key=414c1de4377ef5beeaf6320a98942e56&query"
+
+
+
+
+![movie-api](https://github.com/AnnaGeld/React-Movie-API/assets/119164891/6ccf80c5-0d39-4ec6-85f8-9bd843c18818)
+
